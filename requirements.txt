@@ -3,3 +3,6 @@ numpy
 boto3
 requests
 awswrangler
+jupyter
+jupyterlab
+notebook
