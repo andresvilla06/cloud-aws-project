@@ -6,3 +6,5 @@ awswrangler
 jupyter
 jupyterlab
 notebook
+ipykernel
+pytest
