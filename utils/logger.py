@@ -12,7 +12,7 @@ class _ReadableFormatter(logging.Formatter):
         filename  = record.filename
         message   = record.getMessage()
  
-        line = f'{timestamp} UTC-5 ({filename}) | [{level}]: "{message}"'
+        line = f'{timestamp} UTC-5 | ({filename}) | [{level}]: "{message}"'
  
         if record.exc_info:
             line += f"\n{self.formatException(record.exc_info)}"
