@@ -57,10 +57,3 @@ def get_logger(name: str = __name__) -> _LambdaLogger:
  
     logger.propagate = False
     return logger  # type: ignore[return-value]
-
-
-def log_exception(logger: logging.Logger, msg: str = "Unhandled exception") -> None:
-    """
-    Loguea un ERROR con el stack trace completo.
-    """
-    logger.error(f"{msg}\n{traceback.format_exc()}")
