@@ -8,3 +8,4 @@ jupyterlab
 notebook
 ipykernel
 pytest
+boto3-stubs[s3]
