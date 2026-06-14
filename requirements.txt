@@ -3,9 +3,3 @@ numpy
 boto3
 requests
 awswrangler
-jupyter
-jupyterlab
-notebook
-ipykernel
-pytest
-boto3-stubs[s3]

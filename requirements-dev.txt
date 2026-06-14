@@ -1,0 +1,7 @@
+jupyter
+jupyterlab
+notebook
+ipykernel
+pytest
+boto3-stubs[s3]
+python-dotenv
