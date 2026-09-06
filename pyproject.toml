@@ -23,3 +23,8 @@ cloud-aws-project = "cloud_aws_project:main"
 [build-system]
 requires = ["uv_build>=0.12.10,<0.13.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "mypy-boto3-s3>=1.43.66",
+]
