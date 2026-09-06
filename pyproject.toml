@@ -1,0 +1,25 @@
+[project]
+name = "cloud-aws-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "andresvilla06", email = "avillarreal0601@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "awswrangler>=3.17.1",
+    "boto3>=1.43.89",
+    "great-expectations>=1.22.0",
+    "numpy>=2.5.2",
+    "pandas>=3.0.5",
+    "pytest>=9.1.1",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+cloud-aws-project = "cloud_aws_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"

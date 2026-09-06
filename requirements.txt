@@ -3,3 +3,5 @@ numpy
 boto3
 requests
 awswrangler
+pytest
+great_expectations
