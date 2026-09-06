@@ -1,6 +1,81 @@
+# ========================
+# Sistema operativo
+# ========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ========================
+# Variables de entorno
+# ========================
+.env
+.env.*
+!.env.example
+
+# ========================
+# Dependencias
+# ========================
+node_modules/
+vendor/
 .venv/
+venv/
+env/
 __pycache__/
 *.pyc
 *.pyo
-.env
+
+# ========================
+# Build / output
+# ========================
+dist/
+build/
+out/
+.next/
+.nuxt/
+target/
+
+# ========================
+# Logs y temporales
+# ========================
+*.log
+*.tmp
+*.temp
+*.cache
+logs/
+
+# ========================
+# IDEs y editores
+# ========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-workspace
+
+# ========================
+# Testing y cobertura
+# ========================
+coverage/
+.coverage
+.nyc_output/
+*.lcov
+
+# ========================
+# Miscelaneo
+# ========================
+*.bak
+*.orig
+.sass-cache/
+
+# ========================
+# Custom Ignore Rules
+# ========================
 scripts/

@@ -6,7 +6,8 @@
 - Description
 - Added, Changed, Fixed
 
-## [Tag 1.0.0] 2026-09-06
+
+## [Tag 1.0.0] -  2026-09-06
 **Feature: Adding UV settings & Updating the repo structure**
 
 ### Added
